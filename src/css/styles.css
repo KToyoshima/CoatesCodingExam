@@ -1,0 +1,123 @@
+.current-forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 60%;
+    border: 1px solid rgb(228, 228, 228);
+    box-shadow: 0px 3px 10px 10px rgba(0, 0, 0, 0.07);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.left-section {
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 24px;
+}
+  
+.right-section {
+    width: 30%;
+    height: 100%;
+}
+
+.right-section img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+input[type="text"] {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #a3a2a2;
+    box-shadow: 0px 3px 3px 3px rgb(0 0 0 / 10%);
+    width: 60%;
+    background-color: #ffffff;
+    color: rgb(34 34 34);
+    border-radius: 30px;
+}
+
+.suggestions {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #a3a2a2;
+    box-shadow: 0px 3px 3px 3px rgb(0 0 0 / 10%);
+    border-radius: 15px;
+    width: 63%;
+    color: rgb(34 34 34);
+}
+
+.suggestion {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.forcast {
+    margin-top: 2%;
+    height: 50%;
+    width: 90%;
+}
+
+.forcast .weather-icon {
+    font-size: 5vw;
+}
+
+.forcast .temperature {
+    font-size: 5vw;
+    font-weight: 100;
+}
+
+.forcast .date {
+    margin-top: -5px;
+    font-size: 3vw;
+    font-weight: 100;
+}
+
+.forcast .city {
+    margin-top: -10%;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.forcast .description {
+    margin-top: -10px;
+    font-size: 1vw
+}
+
+.forcast-five-days {
+    height: 36%;
+    width: 100%;
+}
+
+.forcast-five-days .body{
+    display: flex;
+    margin-top: 0.01vw;
+}
+
+.forcast-five-days .cards{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.forcast-five-days .weather-icon {
+    font-size: 2.5vw;
+    margin-bottom: 15%;
+}
