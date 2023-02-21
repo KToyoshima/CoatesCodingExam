@@ -10,6 +10,7 @@ import './weather-icons-master/css/weather-icons.css'
 import './weather-icons-master/css/weather-icons-wind.css'
 
 const App = () => {
+  //open new instance -> set 
   const [city, setCity] = useState<string>('');
   const [suggestions, setSuggestions] = useState<City[]>([]);
   const [currentForecast, setCurrentForecast] = useState<FutureForcast | null>(null);

@@ -32,8 +32,7 @@ import { City, WeatherForecast, Place } from "../modules/models";
     }
   }
   
-  export const apiService = new OpenWeatherApiService();
-  
+  const apiService = new OpenWeatherApiService();
   export const searchCities = (query: string) => apiService.searchCities(query);
   export const getWeatherForecast = (lat: number, lng: number) => apiService.getWeatherForecast(lat, lng);
   export const getLatLng = (placeId: number) => apiService.getLatLng(placeId);
